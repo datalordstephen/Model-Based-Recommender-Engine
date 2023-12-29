@@ -1,22 +1,19 @@
 # Model-Based-Recommender-Engine
-I created a book Recommender System using Sci-kit learn's N-neighbours algorithm for my model and the streamlit library to deploy it as a web app. 
+This project is a book Recommender System using scikit learn's N-neighbours algorithm and the streamlit library to deploy it as a web app. 
 
-The dependencies needed are python, streamlit, sklearn, and numpy.
-
-# Installing dependencies
-Run the line below to install streamlit and sklear :
+### Installing dependencies
+Run the line below to install all the dependencies needed :
 ```
-pip install streamlit sklearn
+pip install -r requirements.txt
 ```
-
-Pandas and Numpy would be installed alongside sklearn.
+### Running Locally
 
 To run the code, first cd into the cloned directory
 ```
 cd Model-Based-Recommender-Engine
 ```
 
-Then run the python file using streamlit.
+Then run the app using streamlit.
 ```
 streamlit run KNN_app.py
 ```
